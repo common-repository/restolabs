@@ -1,0 +1,642 @@
+.resto-plug span,.resto-plug h4{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+
+/*-- start editing from here --*/
+.resto-plug a{text-decoration:none;}
+
+/*-- end reset --*/
+.resto-plug {
+    font-family: 'Open Sans', sans-serif;
+    /*  background: url(../images/bg.jpg)repeat 0px 0px;  */
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+    background-size:cover; 
+}
+.resto-plug h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+}
+/*-- main --*/
+
+.resto-plug .resto_admin_page{
+    width: 75%;
+    margin: 3em auto;
+    background: #fff;
+    padding: 2.5em;
+    -webkit-box-shadow: 0px 0px 8px 1px #002531;
+    -moz-box-shadow: 0px 0px 8px 1px #002531;  
+    box-shadow: 0px 0px 8px 1px #002531;
+}
+.resto-plug .resto_admin_page h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #333;
+    margin-bottom: 1.2em;
+    line-height: 1.5em;
+}
+
+/*-- text-info --*/
+.resto-plug .resto-account-infoleft {
+    float: left;
+    width: 51%;
+}
+.resto-plug .resto-account-infoleft img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.resto-plug .resto-account-infotext {
+    float: right;
+}
+.resto-plug .resto-account-inforight{
+    float: right; 
+}
+.resto-plug .restolabs-account-info h2 {
+    font-size: 1.3em;
+    color: #FF6700;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    margin-top: .5em;
+}
+.resto-plug .restolabs-account-info h6 {
+    font-size: 0.9em;
+    color: #999;
+    margin-top: 0.8em;
+    font-weight: 200;
+}
+.resto-plug .resto-account-inforight p {
+    font-size: 1em;
+    color: #333;
+    margin: 0.8em 0 0;
+}
+.resto-plug .resto-account-inforight p a{
+    color: #333;
+    text-decoration:none;
+    -webkit-transition: 0.5s all; 
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.resto-plug .resto-account-inforight p a:hover {
+    color: #FF6700;
+}
+.resto-account-inforight img {
+    margin-right: 5px;
+} 
+.resto-plug .restolabs-account-info {
+    border-bottom: 1px solid #e8e7e7;
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+}
+/*-- text-info --*/
+/*-- contact-form --*/
+.resto-plug h3 {
+    font-size: 1.2em;
+    color: #333;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+}
+.resto-plug .resto-form-left {
+    float: left;
+    width: 50%;
+}
+.resto-plug .resto-form-right {
+    float: right;
+    width: 48%;
+}
+.resto-plug .resto-form input[type="text"], .resto-plug .resto-form input[type="email"] {
+    width: 87%;
+    color: #999;
+    background: none;
+    outline: none;
+    font-size: .9em;
+    padding: .6em 1em; 
+    border: solid 1px #ccc;
+    -webkit-appearance: none;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.resto-plug input.email {
+    margin: 1em 0;
+}
+.resto-plug .resto-form textarea {
+    resize: none;
+    width: 100%;
+    background: none;
+    color: #999;
+    font-size: .9em;
+    outline: none;
+    padding: .6em 1em;
+    border: solid 1px #ccc;
+    min-height: 5em;
+    -webkit-appearance: none;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.resto-plug .resto-form input[type="submit"] {
+    outline: none;
+    color: #fff;
+    padding: 0.6em 1em;
+    font-size: 0.9em;
+    margin: 0.8em 0 0 0;
+    -webkit-appearance: none;
+    background: #FF6700;
+    border: 2px solid #FF6700;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    width: 100%;
+    cursor: pointer;
+}
+.resto-plug .resto-form input[type="submit"]:hover {
+    color: #FF6700;
+    background: transparent;
+    letter-spacing: 2px;
+} 
+.resto-plug ::-webkit-input-placeholder {
+    color: #999;   
+} 
+.resto-plug :-moz-placeholder { /* Firefox 18- */
+    color: #999; 
+} 
+.resto-plug ::-moz-placeholder {  /* Firefox 19+ */
+    color: #999; 
+} 
+.resto-plug :-ms-input-placeholder {  
+    color: #999; 
+} 
+/*-- //main --*/
+/*-- copyright --*/
+/*-- responsive-design --*/
+@media(max-width:1440px){
+    .resto-plug .resto_admin_page {
+        width: 75%;
+    }
+} 
+@media(max-width:1280px){
+    .resto-plug .resto_admin_page {
+        width: 75%;
+    }
+    .resto-plug h1 {
+        font-size: 2.8em; 
+    }
+}
+@media(max-width:1080px){
+    .resto-plug .resto_admin_page {
+        width: 75%;
+        margin: 2em auto;
+    }
+} 
+@media(max-width:991px){
+    .resto-plug .resto_admin_page h4 { 
+        font-size: 1.3em; 
+    }
+    .resto-plug .resto_admin_page {
+        width: 75%; 
+    }
+}
+@media(max-width:800px){
+    .resto-plug h1 {
+        font-size: 2.3em;
+    }
+    .resto-plug .resto_admin_page {
+        width: 75%;
+        padding: 2em;
+    }
+    .resto-plug .resto-account-inforight p {
+        font-size: 0.95em; 
+    }
+}
+
+@media screen and (max-width: 782px){
+    .resto-plug .resto-form select{
+        font-size: 11px !important;  
+    }
+}
+@media(max-width:736px){
+    .resto-plug .resto_admin_page {
+        width: 75%;  
+    } 
+    .resto-plug .resto-form input[type="text"], .resto-plug .resto-form input[type="email"],.resto-plug .resto-form textarea {
+        width: 75%; 
+    }
+}
+@media(max-width:640px){
+    .resto-plug .resto_admin_page {
+        width: 75%; 
+    }
+}
+@media(max-width:600px){
+    .resto-plug .resto_admin_page {
+        width: 75%;
+    }
+}
+@media(max-width:480px){
+    .resto-plug {
+        padding: 1em 0 0;
+    }
+    .resto-plug h1 {
+        font-size: 2em;
+    }
+    .resto-plug .resto_admin_page {
+        width: 75%;
+        margin: 1.2em auto;
+        padding: 1.5em;
+    }
+    .resto-plug .resto_admin_page h4 {
+        font-size: 1.2em;
+    }
+    .resto-plug .resto-account-inforight p {
+        font-size: 0.8em;
+    }
+    .resto-plug .resto-account-infoleft { 
+        width: 56%;
+    } 
+    .resto-plug .restolabs-account-info h6 {
+        font-size: 0.8em; 
+    }
+    .resto-plug .restolabs-account-info { 
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+    }
+    .resto-plug h3 {
+        font-size: 1.2em; 
+        margin-bottom: 0.8em; 
+    }
+    .resto-plug .restolabs-account-info h2 {
+        font-size: 1em;
+    }
+    .resto-plug .resto-form input[type="text"],.resto-plug .resto-form input[type="email"], .resto-plug .resto-form textarea {
+        width: 84%;
+        font-size: .8em;
+    }
+    .resto-plug .resto-form input[type="submit"] { 
+        font-size: 0.8em; 
+    }
+}
+@media(max-width:414px){
+    .resto-plug .resto_admin_page h4 {
+        font-size: 1em;
+    }
+    .resto-plug .resto-account-infoleft,.resto-plug .resto-account-inforight{
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .resto-plug .resto-account-infotext {
+        float: none;
+    }
+    .resto-plug h3 {
+        font-size: 1.2em; 
+    }
+    .resto-plug .resto-form-left ,.resto-plug .resto-form-right {
+        float: none;
+        width: 100%;
+    }
+    .resto-plug input.email {
+        margin: 0.5em 0;
+    } 
+    .resto-plug .resto-form textarea { 
+        margin-top: .5em;
+    }
+    .resto-plug .resto-form input[type="text"], .resto-plug .resto-form input[type="email"],.resto-plug .resto-form textarea {
+        width: 89%;
+        font-size: .8em;
+    }
+    .resto-plug .restolabs-account-info h6 { 
+        margin-top: 0.5em; 
+    }
+    .resto-plug .resto-account-inforight img {
+        margin-right: 3px;
+        width: 5%;
+    }
+    .resto-plug h3 {
+        font-size: 0.9em;
+    }
+    .resto-plug .resto-form input[type="text"],.resto-plug .resto-form input[type="email"],.resto-plug .resto-form textarea {
+        width: 88%; 
+    }
+} 
+@media(max-width:375px){
+    .resto-plug .resto_admin_page {  
+        padding: 1.2em;
+    }
+    .resto-plug .resto_admin_page h4 {
+        font-size: 0.9em;
+    }
+    .resto-plug .restolabs-account-info h2 {
+        font-size: 0.9em;
+    }
+    .resto-plug h1 {
+        font-size: 1.8em;
+    }
+}
+@media(max-width:320px){
+    .resto-plug h1 {
+        font-size: 1.6em;
+    }
+}
+.resto-plug #update-nag,.resto-plug .update-nag{
+    display:none;
+}
+.resto-plug .password-field,.resto-plug .select{
+    width: 87%;
+    color: #999;
+    background: none;
+    outline: none;
+    font-size: .9em;
+    padding: .6em 1em;
+    border: solid 1px #ccc;
+    -webkit-appearance: none;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.resto-plug .login{
+    border-bottom: 1px solid #e8e7e7;
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+}
+.resto-plug .login-submit{
+    width:50% !important;
+    margin-top: 30px !important;
+}
+.resto-plug .reg-submit{
+    width:87% !important;
+}
+.resto-plug .resto_logo{
+    background-color: rgba(0, 0, 0, 0.21);
+    width: 150px;
+    border-radius: 20px !important;
+    padding: 8px;
+}
+.resto-plug .online-orer-link{
+    color:#FF6700;
+}
+.resto-plug input[type="submit"]{
+    padding: 0.07rem 0.5rem;
+    cursor: pointer;
+    color: #FF6700;
+    background-color: #fff;
+    font-size: 1rem;
+    margin-top: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: .1rem solid #FF6700;
+    -webkit-transition: color .3s,border .3s;
+    transition: color .3s,border .3s;
+}
+.resto-plug .restolabs-logout input[type="submit"]{
+    color: #FF6700;
+    background-color: #fff;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 0px;
+    -webkit-transition: color .3s,border .3s;
+    transition: color .3s,border .3s;
+    text-decoration: underline;
+}
+.resto-plug .restolabs-show-option-list input[type="submit"]{
+    border-radius: 12rem;
+}
+.resto-plug .create-ordering-button input[type="submit"]{
+    border-radius: 12rem;
+}
+.resto-plug .restolabs-logout input[type="submit"]{
+    border-radius: 12rem;
+}
+.resto-plug .register select{
+    padding: 2px;
+    line-height: 28px;
+    height: 37px;
+    padding-left: 13px;
+}
+.resto-plug .plug-title{
+    font-size: 30px;
+    color: #FF6700 !important;
+}
+.resto-plug .register-here-link,.resto-plug .back-to-login-link{
+    margin: 10px;
+}
+.resto-plug .register input,.resto-plug .register select{
+    margin-top: 5px;
+}
+.resto-plug .back-to-login-link a{
+    color: #FF6700;
+}
+.resto-plug .register-here-link a{
+    color: #FF6700;
+}
+.resto-plug #restolabs-reg-block{
+    display:none;
+}
+
+.resto-plug .resto-name{
+    color: #FF6700;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.resto-plug .restolabs-show-option-list{
+    padding-top: 20px;
+    line-height: 1.7;
+}
+
+.resto-plug .restolabs-show-option{
+    font-size: 20px;
+    border-bottom: 1px solid #e8e7e7;
+    padding-bottom: 1.5em;
+}
+.resto-plug .logged-in{
+    text-align: left;
+}
+.resto-plug input[type=radio]:checked:before{
+    background-color: #FF6700;
+}
+.resto-plug .option-description{
+    padding-left:22px;
+}
+/*-- //responsive-design --*/
+.resto-plugin .resto-modal {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    background: rgba(0,0,0, .9);
+    z-index: 999999;
+    transition: opacity .25s ease;
+}
+
+.resto-plugin .resto_modal__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.resto-plugin .resto-modal-state {
+    display: none;
+}
+
+.resto-plugin .resto-modal-state:checked + .resto-modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+.resto-plugin .resto-modal-state:checked + .resto-modal .resto_modal__inner {
+    top: 0;
+}
+
+.resto-plugin .resto_modal__inner {
+    transition: top .25s ease;
+    position: absolute;
+    top: -20%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    background: #fff;
+    border-radius: 5px;
+    padding-right: 10px;
+    height: 100%;
+}
+
+.resto-plugin iframe::-webkit-scrollbar { 
+    width:0px;
+}
+
+.resto-plugin .resto_modal__close {
+    position: absolute;
+    right: 2em;
+    top: 3em;
+    width: 1.1em;
+    height: 1.1em;
+    cursor: pointer;
+}
+
+.resto-plugin .resto_modal__close:after,
+.resto-plugin .resto_modal__close:before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 1.5em;
+    background: #ccc;
+    display: block;
+    transform: rotate(45deg);
+    left: 50%;
+    margin: -3px 0 0 -1px;
+    top: 0;
+}
+
+.resto-plugin .resto_modal__close:hover:after,
+.resto-plugin .resto_modal__close:hover:before {
+    background: #aaa;
+}
+
+.resto-plugin .resto_modal__close:before {
+    transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+
+    .resto-plugin  .resto_modal__inner {
+        width: 90%;
+        height: 90%;
+        box-sizing: border-box;
+    }
+}
+.resto-plug .connected-green-tick{
+    width:32px;
+    vertical-align: bottom;
+    padding-right: 5px;
+}
+.resto-plug .login-form-center{
+    text-align:center;
+}
+.resto-plug .account-status{
+    width: 69%;
+    float: left;
+}
+.resto-plug .res-id{
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+.resto-plug input[type=checkbox]:checked:before{
+    color: #FF6700;
+}
+.resto-plug .option-desc{
+    font-size: 13px;
+}
+.resto-plug .shortcode-desc{
+    font-size: 13px;
+    padding-left: 6px;
+    color: #FF670F;
+}
+.resto-plug .shortcode-text{
+    font-size: 13px;
+}
+.resto-plug .resto-url{
+    color: #FF6700;
+    padding-left: 0px;
+    font-size: 16px;
+}
+.resto-plug .account-status a:hover{
+    color: #FF6700;
+}
+.resto-plug .resto-plug a:active{
+    outline:0;
+    border:none;
+    -moz-outline-style: none;
+}
+.resto-plug .resto-plug a:focus{
+    outline:0;
+    border:none;
+    -moz-outline-style: none;
+}
+/* Other
+ * =============================== */
+
+.resto-plug .restolabs-ordering-btn {
+    cursor: pointer;
+    background: #27ae60;
+    display: inline-block;
+    padding: .5em 1em;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.resto-copyright{
+    text-align: center;
+    color: #FF6700;
+}
+.resto_modal__inner iframe{
+    border: 0;
+    width: 100%;
+    height: 100%
+}
